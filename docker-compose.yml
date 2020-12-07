@@ -22,6 +22,6 @@ services:
       - db
     volumes:
       - nextcloud:/var/www/html
-      - /data/disk0/data:/var/www/html/data
+      - /data/disk0/cloud:/var/www/html/data
       - /etc/localtime:/etc/localtime:ro
     restart: always
